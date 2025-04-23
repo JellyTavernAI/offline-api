@@ -22,21 +22,25 @@ The offline api runs in a docker container:
 
 **Prepwork:**
 
-1. You must have [docker](https://docs.docker.com/engine/install/) installed
-1. Download this project
-1. Extract it to a folder on your computer
+* You must install [docker](https://docs.docker.com/engine/install/)
+* You should install [git](https://git-scm.com/downloads)
 
-<p align="center">
-  <img src="readme-assets/howto-download.PNG?raw=true" alt="Visual download instruction" />
-</p>
+**Get the api:**
 
-
-**Then run it:**
-
-1. Find the extracted folder, specifically find this file: `docker-compose.yml`
+1. Recommended: Use git to clone this repository:<br>`git clone https://github.com/JellyTavernAI/offline-api.git`
+1. Alternative: _Download this repository and extract to a folder_
+1. Find the folder with this file: `docker-compose.yml` (in root folder)
 1. Run this command:<br>`docker compose up -d`
 
-Check the webapp, find the offline configuration page and (hopefully) notice the green dot with a Status: OK.
+**Verify success:**
+
+- Check the [offline configuration page](https://jellytavern.ai/config/overview).
+- Make sure enable the Offline API (toggle to "enabled")
+- The status box should say "OK" with a green dot and a checkmark<br>Like this image:
+
+<p>
+  <img src="readme-assets/howto-config.png?raw=true" alt="Screenshot of valid offline api config" />
+</p>
 
 ## Where is data stored?
 
@@ -49,16 +53,16 @@ If you want to wipe all your data, just stop the api and delete everything from 
 
 ## How to update
 
-### Using git
+### Recommended: Using git
 
-When [git](https://git-scm.com/downloads) is installed on your computer:
+If you used [git](https://git-scm.com/downloads) to pull the repository:
 
 1. Run `git pull` in the same folder as this readme file
 2. Restart the docker service
 
 The `./data` folder has an entry in `.gitignore`. It should remain intact without causing issues.
 
-### Manual update
+### Alternative: Manual update
 
 1. Visit the [github page](https://github.com/JellyTavernAI/offline-api)
 2. Download the project
@@ -70,6 +74,7 @@ The `./data` folder has an entry in `.gitignore`. It should remain intact withou
 
 > Note: On github, even suggestions can be called "issues". Doesn't mean something is wrong :)
 
+You can also make suggestions in the [JellyTavern AI subreddit](https://www.reddit.com/r/JellyTavernAI/)
 
 ## "It doesn't work!"
 
@@ -78,6 +83,8 @@ The `./data` folder has an entry in `.gitignore`. It should remain intact withou
 - Check the webapps console for errors
 
 If the problem seems like a mystery or a bug, [create an issue](https://github.com/JellyTavernAI/offline-api). Try to describe what went wrong and how it happened (to the best of your ability). Well described issues are easier to solve, and more likely to be prioritized.
+
+You can also try asking in the [JellyTavern AI subreddit](https://www.reddit.com/r/JellyTavernAI/)
 
 ## A note on mental health
 

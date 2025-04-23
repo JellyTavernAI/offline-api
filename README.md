@@ -81,14 +81,11 @@ If the problem seems like a mystery or a bug, [create an issue](https://github.c
 
 ## A note on mental health
 
-AI can be fun and engaging. There is nothing wrong with immersive use of AI. In fact, it can be quite fun, engaging and even helpful.
+There is nothing wrong with immersive use of AI. In fact, it can be quite fun, engaging and even helpful.
 
 **Just be aware:**
-- It isn't a real person
-- It doesn't know you
-- It's unpredictable and can say the worst things at the worst time
-- It won't know or care if it caused you harm or insult
+- It isn't a real person and it doesn't know you
+- It's unpredictable
+- It should not substitue real help for those that need it
 
-Please enjoy AI as much as you want, in any way you want. Seek out the positive experiences it has to offer, but do not use it as a substitue for real help. Your mental health matters, don't suffer in silence.
-
-You matter
+> Enjoy AI responsibly and never forget: You matter &lt;3

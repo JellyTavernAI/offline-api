@@ -9,7 +9,6 @@ This is a node.js server that runs in a docker container. It manages ai cards, s
 - Makes https://jellytavern.ai usable offline
 - No login required
 - No offline usage or content is sent to the cloud
-- All offline usage and content is handled by the offline api instead
 
 ## Brief legal disclaimer
 
@@ -28,7 +27,7 @@ The offline api runs in a docker container:
 1. Extract it to a folder on your computer
 
 <p align="center">
-  <img src="readme-assets/howto-download.png?raw=true" alt="JellyTavern logo" />
+  <img src="readme-assets/howto-download.PNG?raw=true" alt="Visual download instruction" />
 </p>
 
 

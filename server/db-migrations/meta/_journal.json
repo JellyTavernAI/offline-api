@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1742128682883,
+      "tag": "0000_purple_warpath",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1745246815170,
+      "tag": "0001_broad_wallflower",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1745256261595,
+      "tag": "0002_modern_susan_delgado",
+      "breakpoints": true
+    }
+  ]
+}

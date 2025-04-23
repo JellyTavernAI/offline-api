@@ -1,0 +1,21 @@
+services:
+  app:
+    image: node:22-alpine
+    container_name: jellytavern-offline-api
+    working_dir: /app
+    volumes:
+      - ./data:/app/data
+      - ./server/server.js:/app/server.js
+      - ./server/package.json:/app/package.json
+      - ./server/db-migrations:/app/system/db-migrations
+    command: >
+      sh -c "
+      set -ex &&
+      corepack enable && corepack prepare pnpm@latest --activate &&
+      pnpm install &&
+      node /app/server.js
+      "
+    ports:
+      - "3337:3337"
+    environment:
+      - NODE_ENV=production
